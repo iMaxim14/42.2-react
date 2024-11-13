@@ -1,21 +1,14 @@
 import './App.css';
-import Button from './components/Button/Button';
-import LessonCard from './components/LessonCard/LessonCard';
-import ProfileCard from './components/ProfileCard/ProfileCard';
+import Lesson02 from './lessons/Lesson02/Lesson02';
+import Lesson03 from './lessons/Lesson03/Lesson03';
+import Homework02 from './homeworks/Homework02/Homework02';
 
 function App() {
   return (
     <div className="App">
-      <div>
-        <LessonCard/>
-        <Button/>
-        <Button/>
-      </div>
-      <div>
-        <ProfileCard/>
-        <ProfileCard/>
-        <ProfileCard/>
-      </div>
+        <Lesson03/>
+        {/* <Lesson02/> */}
+        <Homework02/>
     </div>
   );
 }

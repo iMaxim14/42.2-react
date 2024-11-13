@@ -1,0 +1,8 @@
+.lesson03-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    padding-top: 30px;
+  }
