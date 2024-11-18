@@ -12,11 +12,13 @@ function LoginForm(){
             <Input 
                 inputName='email'
                 inputType='email'
+                id='user_email'
                 inputPlaceholder='Enter your email'
                 inputLabel='Email'/>
                 <Input
                 inputName='Password'
                 inputType='password'
+                id='user_password'
                 inputPlaceholder='Enter your password'
                 inputLabel='Password'
                 />

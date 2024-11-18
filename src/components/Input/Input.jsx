@@ -1,10 +1,10 @@
 import './styles.css'
 
-function Input({inputName, inputType, inputPlaceholder, inputLabel}){
+function Input({inputName, inputType, inputPlaceholder, inputLabel, id}){
     
     return(
         <div className="input-wrapper">
-                <label >{inputLabel}</label>
+                <label htmlFor={id} >{inputLabel}</label>
                 <input name={inputName} type={inputType} placeholder={inputPlaceholder} className='input-style'/> 
         </div>
     )
