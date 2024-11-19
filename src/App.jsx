@@ -5,6 +5,7 @@ import Lesson04 from './lessons/lesson04/Lesson04';
 import Homework02 from "./homeworks/Homework02/Homework02";
 import Homework03 from "./homeworks/Homework03/Homework03";
 import Input from "./components/Input/Input";
+import Homework04 from "./homeworks/Homework04/Homework04";
 
 function App() {
   return (
@@ -14,8 +15,8 @@ function App() {
       {/* <Lesson02/> */}
       {/* <Lesson04/> */}
       {/* <Homework02/> */}
-      <Homework03 />
-
+      {/* <Homework03 /> */}
+      <Homework04/>
     </div>
   );
 }
